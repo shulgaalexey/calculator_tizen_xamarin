@@ -55,7 +55,7 @@ namespace Calculator.Tizen
             try
             {
                 MobileCenter.LogLevel = LogLevel.Verbose;
-                MobileCenter.Configure("efc52dfb-3133-4f7e-b73f-b798474204b2");
+                MobileCenter.Configure("6825bcfe-3582-4d4a-b3a7-fe06154414a4");
                 MobileCenter.Start(typeof(Analytics));
             }
             catch (System.Exception exc)
