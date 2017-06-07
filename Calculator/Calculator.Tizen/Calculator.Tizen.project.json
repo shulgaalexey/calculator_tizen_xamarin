@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "ElmSharp": "1.1.0-beta-009",
-    "Microsoft.Azure.Mobile": "1.0.3",
-    "Microsoft.Azure.Mobile.Analytics": "1.0.3",
+    "Microsoft.Azure.Mobile.Analytics.Tizen": "0.12.1",
+    "Microsoft.Azure.Mobile.Tizen": "0.12.1",
     "Microsoft.NETCore.App": {
       "version": "1.0.0"
     },
