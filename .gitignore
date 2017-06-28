@@ -4,3 +4,5 @@ Release
 packages
 project.lock.json
 .vs
+*.nuget.targets
+*.project.lock.json
