@@ -16,3 +16,13 @@ So harry-up, try it now and let us know your thoughts!
 
 Note the app includes a statistical research module, which sends some app usage patterns to the analytical server.
 This will not affect your perfect user experience though.
+
+## Continuous Integration
+
+The Continuous Integration project is set up [here](https://a-shulga.visualstudio.com/Calculator).
+
+
+## Analytics
+
+The Analytics setup is explained in this [guidance](https://github.com/shulgaalexey/gallery-dotnet-sdk-tizen/tree/master/mobilecenter).
+The [Analytics app](https://mobile.azure.com/users/a.shulga/apps/Calculator/analytics/overview) monitors events of Calculator mode change from simple to scientific and back.
