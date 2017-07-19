@@ -20,6 +20,7 @@ using Tizen.Applications;
 using Xamarin.Forms.Platform.Tizen.Native;
 
 using System.Collections.Generic;
+using Microsoft.Azure.Mobile.Crashes;
 
 namespace Calculator.Tizen
 {
@@ -56,7 +57,7 @@ namespace Calculator.Tizen
             {
                 MobileCenter.LogLevel = LogLevel.Verbose;
                 MobileCenter.Configure("6825bcfe-3582-4d4a-b3a7-fe06154414a4");
-                MobileCenter.Start(typeof(Analytics));
+                MobileCenter.Start(typeof(Analytics), typeof(Crashes));
             }
             catch (System.Exception exc)
             {
